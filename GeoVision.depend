@@ -1,0 +1,264 @@
+# depslib dependency file v1.0
+1551972217 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	<vector>
+	<map>
+	"Geometry.h"
+	"Rendering.h"
+	"GMColors.h"
+	"DynamicalShapeData.h"
+	"Enums.h"
+	"DistanceToMouse.h"
+	"MemoryManagement.h"
+	"DynamicToStatic.h"
+	"RenderingDynamicObjects.h"
+	"UpdateRelativePoints.h"
+	"GUI.h"
+	"Textures.h"
+	"ObjectPreview.h"
+	"DeleteObject.h"
+
+1551878761 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\geometry.h
+	<iostream>
+	<cmath>
+	<vector>
+	<algorithm>
+	<iomanip>
+
+1551967571 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\geometry.cpp
+	"Geometry.h"
+	<vector>
+
+1545135984 source:f:\geovision\src\geometry.cpp
+	"Geometry.h"
+	<vector>
+
+1546805508 f:\geovision\src\geometry.h
+	<iostream>
+	<cmath>
+	<vector>
+	<algorithm>
+
+1548240388 source:f:\geovision\src\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	<vector>
+	"Geometry.h"
+	"Rendering.h"
+	"GMColors.h"
+	"DynamicalShapeData.h"
+	"Enums.h"
+	"DistanceToMouse.h"
+	"MemoryManagement.h"
+
+1551522010 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\rendering.cpp
+	"Rendering.h"
+	<SFML/Graphics.hpp>
+	"Geometry.h"
+
+1549658596 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\rendering.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<vector>
+	"Geometry.h"
+	"GMColors.h"
+
+1551792984 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\gmcolors.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Geometry.h"
+
+1545135984 source:e:\geovision\src\geometry.cpp
+	"Geometry.h"
+	<vector>
+
+1544726314 e:\geovision\src\geometry.h
+	<iostream>
+	<cmath>
+	<vector>
+	<algorithm>
+
+1545136996 source:e:\geovision\src\main.cpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	<vector>
+	"Geometry.h"
+	"Rendering.h"
+	"GMColors.h"
+
+1545205690 e:\geovision\src\rendering.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<vector>
+	"Geometry.h"
+	"GMColors.h"
+
+1545136692 e:\geovision\src\gmcolors.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Geometry.h"
+
+1545136648 source:e:\geovision\src\gmcolors.cpp
+	"GMColors.h"
+
+1549478921 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\gmcolors.cpp
+	"GMColors.h"
+
+1551964668 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\dynamicalshapedata.cpp
+	"DynamicalShapeData.h"
+
+1551964641 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\dynamicalshapedata.h
+	"Geometry.h"
+	"Enums.h"
+
+1551863216 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\enums.h
+
+1551880893 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\distancetomouse.cpp
+	"distanceToMouse.h"
+
+1550322419 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\distancetomouse.h
+	<iostream>
+	<vector>
+	<algorithm>
+	"Geometry.h"
+	"DynamicalShapeData.h"
+	"DynamicToStatic.h"
+
+1548240618 source:f:\geovision\src\dynamicalshapedata.cpp
+	"DynamicalShapeData.h"
+
+1548240570 f:\geovision\src\dynamicalshapedata.h
+	"Geometry.h"
+	"Enums.h"
+
+1547032140 f:\geovision\src\enums.h
+
+1545137356 source:f:\geovision\src\gmcolors.cpp
+	"GMColors.h"
+
+1545745696 f:\geovision\src\gmcolors.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"Geometry.h"
+
+1545205690 f:\geovision\src\rendering.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	<vector>
+	"Geometry.h"
+	"GMColors.h"
+
+1548237102 f:\geovision\src\distancetomouse.h
+	<iostream>
+	<vector>
+	<algorithm>
+	"Geometry.h"
+	"DynamicalShapeData.h"
+
+1545206366 source:f:\geovision\src\rendering.cpp
+	"Rendering.h"
+	<SFML/Graphics.hpp>
+	"Geometry.h"
+
+1548237198 source:f:\geovision\src\distancetomouse.cpp
+	"distanceToMouse.h"
+
+1551972523 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\memorymanagement.cpp
+	"MemoryManagement.h"
+
+1551972025 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\memorymanagement.h
+	<iostream>
+	<vector>
+	<set>
+	"Geometry.h"
+	"DynamicalShapeData.h"
+	"Enums.h"
+	"DistanceToMouse.h"
+	"DynamicToStatic.h"
+	"ChangePointType.h"
+
+1548241502 f:\geovision\src\memorymanagement.h
+	<iostream>
+	<vector>
+	"Geometry.h"
+	"DynamicalShapeData.h"
+	"Enums.h"
+	"DistanceToMouse.h"
+
+1548241668 source:f:\geovision\src\memorymanagement.cpp
+	"MemoryManagement.h"
+
+1550322492 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\dynamictostatic.cpp
+	"dynamicToStatic.h"
+
+1550322448 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\dynamictostatic.h
+	<iostream>
+	"Geometry.h"
+	"DynamicalShapeData.h"
+
+1551612445 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\renderingdynamicobjects.cpp
+	"RenderingDynamicObjects.h"
+
+1551566115 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\renderingdynamicobjects.h
+	<iostream>
+	<vector>
+	<SFML/Graphics.hpp>
+	<set>
+	"DynamicalShapeData.h"
+	"Rendering.h"
+	"DynamicToStatic.h"
+	"MemoryManagement.h"
+
+1549903370 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\changepointtype.h
+	"Enums.h"
+
+1551862869 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\changepointtype.cpp
+	"ChangePointType.h"
+
+1551968517 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\updaterelativepoints.cpp
+	"UpdateRelativePoints.h"
+
+1549990245 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\updaterelativepoints.h
+	<iostream>
+	<vector>
+	"DynamicalShapeData.h"
+	"ChangePointType.h"
+	"DynamicToStatic.h"
+	"Geometry.h"
+
+1551118081 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\gui.cpp
+	"GUI.h"
+
+1551786559 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\gui.h
+	<SFML/Graphics.hpp>
+	"Enums.h"
+
+1551616240 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\textures.cpp
+	"Textures.h"
+
+1551125183 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\textures.h
+	<SFML/Graphics.hpp>
+	<map>
+
+1551614523 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\objectpreview.cpp
+	"ObjectPreview.h"
+
+1551614229 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\objectpreview.h
+	<vector>
+	<SFML/Graphics.hpp>
+	<set>
+	"Enums.h"
+	"DynamicalShapeData.h"
+	"Rendering.h"
+	"DynamicToStatic.h"
+	"MemoryManagement.h"
+
+1551599535 c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\deleteobject.h
+	<vector>
+	"DynamicalShapeData.h"
+	"Enums.h"
+
+1551697777 source:c:\users\user\desktop\things that involve stuff\c++\all sfml bullshit (most of it)\geovision\src\deleteobject.cpp
+	"DeleteObject.h"
+
