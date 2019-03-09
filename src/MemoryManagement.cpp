@@ -190,7 +190,11 @@ int createPoint(double mouseX, double mouseY, std::vector<dynamicIndex> * indexS
 
     if (closeObjects.size() == 1)
     {
-        return createRelativePoint(mouseX, mouseY, closeObjects[0], pointMemory, segmentMemory, lineMemory, circleMemoryDB2, circleMemoryDB3);
+        if (closeObjects[0].shape == POINT) return createRelativePoint(mouseX, mouseY, dynamicIndex(closePoints[closeObjects[0].index].index, POINT), pointMemory, segmentMemory, lineMemory, circleMemoryDB2, circleMemoryDB3);
+        else if (closeObjects[0].shape == SEGMENT)return createRelativePoint(mouseX, mouseY, dynamicIndex(closeSegments[closeObjects[0].index].index, SEGMENT), pointMemory, segmentMemory, lineMemory, circleMemoryDB2, circleMemoryDB3);
+        else if (closeObjects[0].shape == LINE) return createRelativePoint(mouseX, mouseY, dynamicIndex(closeLines[closeObjects[0].index].index, LINE), pointMemory, segmentMemory, lineMemory, circleMemoryDB2, circleMemoryDB3);
+        else if (closeObjects[0].shape == CIRCLE_DB2) return createRelativePoint(mouseX, mouseY, dynamicIndex(closeCirclesDB2[closeObjects[0].index].index, CIRCLE_DB2), pointMemory, segmentMemory, lineMemory, circleMemoryDB2, circleMemoryDB3);
+        else if (closeObjects[0].shape == CIRCLE_DB3) return createRelativePoint(mouseX, mouseY, dynamicIndex(closeCirclesDB3[closeObjects[0].index].index, CIRCLE_DB3), pointMemory, segmentMemory, lineMemory, circleMemoryDB2, circleMemoryDB3);
     }
 
     for (int i=0; i<closeObjects.size(); i++)
@@ -360,6 +364,7 @@ int createPoint(double mouseX, double mouseY, std::vector<dynamicIndex> * indexS
 
 int createRelativePoint(double mouseX, double mouseY, dynamicIndex object, std::vector<dynamicPoint> * pointMemory, std::vector<dynamicPointIndexes2> * segmentMemory, std::vector<dynamicPointIndexes2> * lineMemory, std::vector<dynamicPointIndexes2> * circleMemoryDB2, std::vector<dynamicPointIndexes3> * circleMemoryDB3)
 {
+    std::cout<<object.index<<" "<<object.shape<<std::endl;
     int index = getNextFreePoint(pointMemory);
     (*pointMemory)[index] = dynamicPoint(0, 0, RELATIVE, object.shape, object.index);
     switch (object.shape)
